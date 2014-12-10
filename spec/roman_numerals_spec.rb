@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RomanNumerals do
   describe ".parse" do
-    it "parses the number into old roman numeral" do
+    it "parses the number into an old roman numeral" do
       number = 9
       result = RomanNumerals.parse(number)
 
